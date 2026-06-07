@@ -123,7 +123,7 @@ src/
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/prng-security-analysis.git
+git clone https://github.com/YOUR_USERNAME/PRNGs.git
 
 cd prng-security-analysis
 ```
@@ -134,27 +134,6 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
----
-
-## Running Experiments
-
-### Train LSTM on LCG
-
-```bash
-python examples/train_lcg.py
-```
-
-### Train LSTM on MT19937
-
-```bash
-python examples/train_mt.py
-```
-
-### Clone MT19937 State
-
-```bash
-python examples/clone_mt.py
-```
 
 ---
 
